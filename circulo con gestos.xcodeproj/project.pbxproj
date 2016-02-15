@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A363F47C1BD647E70084D591 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A363F47B1BD647E70084D591 /* AppDelegate.swift */; };
+		A363F47E1BD647E70084D591 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A363F47D1BD647E70084D591 /* ViewController.swift */; };
+		A363F4811BD647E70084D591 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A363F47F1BD647E70084D591 /* Main.storyboard */; };
+		A363F4831BD647E70084D591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A363F4821BD647E70084D591 /* Assets.xcassets */; };
+		A363F4861BD647E70084D591 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A363F4841BD647E70084D591 /* LaunchScreen.storyboard */; };
+		A363F4911BD647E70084D591 /* Circulo_con_GestosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A363F4901BD647E70084D591 /* Circulo_con_GestosTests.swift */; };
+		A363F49C1BD647E70084D591 /* Circulo_con_GestosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A363F49B1BD647E70084D591 /* Circulo_con_GestosUITests.swift */; };
+		A363F4AA1BD6482E0084D591 /* CirculoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A363F4A91BD6482E0084D591 /* CirculoView.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A363F48D1BD647E70084D591 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A363F4701BD647E70084D591 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A363F4771BD647E70084D591;
+			remoteInfo = "Circulo con Gestos";
+		};
+		A363F4981BD647E70084D591 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A363F4701BD647E70084D591 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A363F4771BD647E70084D591;
+			remoteInfo = "Circulo con Gestos";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A363F4781BD647E70084D591 /* Circulo con Gestos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Circulo con Gestos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A363F47B1BD647E70084D591 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A363F47D1BD647E70084D591 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A363F4801BD647E70084D591 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A363F4821BD647E70084D591 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A363F4851BD647E70084D591 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A363F4871BD647E70084D591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A363F48C1BD647E70084D591 /* Circulo con GestosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Circulo con GestosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A363F4901BD647E70084D591 /* Circulo_con_GestosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circulo_con_GestosTests.swift; sourceTree = "<group>"; };
+		A363F4921BD647E70084D591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A363F4971BD647E70084D591 /* Circulo con GestosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Circulo con GestosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A363F49B1BD647E70084D591 /* Circulo_con_GestosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circulo_con_GestosUITests.swift; sourceTree = "<group>"; };
+		A363F49D1BD647E70084D591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A363F4A91BD6482E0084D591 /* CirculoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirculoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A363F4751BD647E70084D591 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A363F4891BD647E70084D591 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A363F4941BD647E70084D591 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A363F46F1BD647E70084D591 = {
+			isa = PBXGroup;
+			children = (
+				A363F47A1BD647E70084D591 /* Circulo con Gestos */,
+				A363F48F1BD647E70084D591 /* Circulo con GestosTests */,
+				A363F49A1BD647E70084D591 /* Circulo con GestosUITests */,
+				A363F4791BD647E70084D591 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A363F4791BD647E70084D591 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A363F4781BD647E70084D591 /* Circulo con Gestos.app */,
+				A363F48C1BD647E70084D591 /* Circulo con GestosTests.xctest */,
+				A363F4971BD647E70084D591 /* Circulo con GestosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A363F47A1BD647E70084D591 /* Circulo con Gestos */ = {
+			isa = PBXGroup;
+			children = (
+				A363F47B1BD647E70084D591 /* AppDelegate.swift */,
+				A363F47D1BD647E70084D591 /* ViewController.swift */,
+				A363F47F1BD647E70084D591 /* Main.storyboard */,
+				A363F4A91BD6482E0084D591 /* CirculoView.swift */,
+				A363F4821BD647E70084D591 /* Assets.xcassets */,
+				A363F4841BD647E70084D591 /* LaunchScreen.storyboard */,
+				A363F4871BD647E70084D591 /* Info.plist */,
+			);
+			path = "Circulo con Gestos";
+			sourceTree = "<group>";
+		};
+		A363F48F1BD647E70084D591 /* Circulo con GestosTests */ = {
+			isa = PBXGroup;
+			children = (
+				A363F4901BD647E70084D591 /* Circulo_con_GestosTests.swift */,
+				A363F4921BD647E70084D591 /* Info.plist */,
+			);
+			path = "Circulo con GestosTests";
+			sourceTree = "<group>";
+		};
+		A363F49A1BD647E70084D591 /* Circulo con GestosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A363F49B1BD647E70084D591 /* Circulo_con_GestosUITests.swift */,
+				A363F49D1BD647E70084D591 /* Info.plist */,
+			);
+			path = "Circulo con GestosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A363F4771BD647E70084D591 /* Circulo con Gestos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A363F4A01BD647E70084D591 /* Build configuration list for PBXNativeTarget "Circulo con Gestos" */;
+			buildPhases = (
+				A363F4741BD647E70084D591 /* Sources */,
+				A363F4751BD647E70084D591 /* Frameworks */,
+				A363F4761BD647E70084D591 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Circulo con Gestos";
+			productName = "Circulo con Gestos";
+			productReference = A363F4781BD647E70084D591 /* Circulo con Gestos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A363F48B1BD647E70084D591 /* Circulo con GestosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A363F4A31BD647E70084D591 /* Build configuration list for PBXNativeTarget "Circulo con GestosTests" */;
+			buildPhases = (
+				A363F4881BD647E70084D591 /* Sources */,
+				A363F4891BD647E70084D591 /* Frameworks */,
+				A363F48A1BD647E70084D591 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A363F48E1BD647E70084D591 /* PBXTargetDependency */,
+			);
+			name = "Circulo con GestosTests";
+			productName = "Circulo con GestosTests";
+			productReference = A363F48C1BD647E70084D591 /* Circulo con GestosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A363F4961BD647E70084D591 /* Circulo con GestosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A363F4A61BD647E70084D591 /* Build configuration list for PBXNativeTarget "Circulo con GestosUITests" */;
+			buildPhases = (
+				A363F4931BD647E70084D591 /* Sources */,
+				A363F4941BD647E70084D591 /* Frameworks */,
+				A363F4951BD647E70084D591 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A363F4991BD647E70084D591 /* PBXTargetDependency */,
+			);
+			name = "Circulo con GestosUITests";
+			productName = "Circulo con GestosUITests";
+			productReference = A363F4971BD647E70084D591 /* Circulo con GestosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A363F4701BD647E70084D591 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Carlos Macias Jimenez";
+				TargetAttributes = {
+					A363F4771BD647E70084D591 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					A363F48B1BD647E70084D591 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = A363F4771BD647E70084D591;
+					};
+					A363F4961BD647E70084D591 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = A363F4771BD647E70084D591;
+					};
+				};
+			};
+			buildConfigurationList = A363F4731BD647E70084D591 /* Build configuration list for PBXProject "Circulo con Gestos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A363F46F1BD647E70084D591;
+			productRefGroup = A363F4791BD647E70084D591 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A363F4771BD647E70084D591 /* Circulo con Gestos */,
+				A363F48B1BD647E70084D591 /* Circulo con GestosTests */,
+				A363F4961BD647E70084D591 /* Circulo con GestosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A363F4761BD647E70084D591 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A363F4861BD647E70084D591 /* LaunchScreen.storyboard in Resources */,
+				A363F4831BD647E70084D591 /* Assets.xcassets in Resources */,
+				A363F4811BD647E70084D591 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A363F48A1BD647E70084D591 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A363F4951BD647E70084D591 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A363F4741BD647E70084D591 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A363F47E1BD647E70084D591 /* ViewController.swift in Sources */,
+				A363F47C1BD647E70084D591 /* AppDelegate.swift in Sources */,
+				A363F4AA1BD6482E0084D591 /* CirculoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A363F4881BD647E70084D591 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A363F4911BD647E70084D591 /* Circulo_con_GestosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A363F4931BD647E70084D591 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A363F49C1BD647E70084D591 /* Circulo_con_GestosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A363F48E1BD647E70084D591 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A363F4771BD647E70084D591 /* Circulo con Gestos */;
+			targetProxy = A363F48D1BD647E70084D591 /* PBXContainerItemProxy */;
+		};
+		A363F4991BD647E70084D591 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A363F4771BD647E70084D591 /* Circulo con Gestos */;
+			targetProxy = A363F4981BD647E70084D591 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A363F47F1BD647E70084D591 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A363F4801BD647E70084D591 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A363F4841BD647E70084D591 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A363F4851BD647E70084D591 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A363F49E1BD647E70084D591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A363F49F1BD647E70084D591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A363F4A11BD647E70084D591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Circulo con Gestos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.Circulo-con-Gestos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A363F4A21BD647E70084D591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Circulo con Gestos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.Circulo-con-Gestos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A363F4A41BD647E70084D591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Circulo con GestosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.Circulo-con-GestosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Circulo con Gestos.app/Circulo con Gestos";
+			};
+			name = Debug;
+		};
+		A363F4A51BD647E70084D591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Circulo con GestosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.Circulo-con-GestosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Circulo con Gestos.app/Circulo con Gestos";
+			};
+			name = Release;
+		};
+		A363F4A71BD647E70084D591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Circulo con GestosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.Circulo-con-GestosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Circulo con Gestos";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A363F4A81BD647E70084D591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Circulo con GestosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.Circulo-con-GestosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Circulo con Gestos";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A363F4731BD647E70084D591 /* Build configuration list for PBXProject "Circulo con Gestos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A363F49E1BD647E70084D591 /* Debug */,
+				A363F49F1BD647E70084D591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A363F4A01BD647E70084D591 /* Build configuration list for PBXNativeTarget "Circulo con Gestos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A363F4A11BD647E70084D591 /* Debug */,
+				A363F4A21BD647E70084D591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A363F4A31BD647E70084D591 /* Build configuration list for PBXNativeTarget "Circulo con GestosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A363F4A41BD647E70084D591 /* Debug */,
+				A363F4A51BD647E70084D591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A363F4A61BD647E70084D591 /* Build configuration list for PBXNativeTarget "Circulo con GestosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A363F4A71BD647E70084D591 /* Debug */,
+				A363F4A81BD647E70084D591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A363F4701BD647E70084D591 /* Project object */;
+}
